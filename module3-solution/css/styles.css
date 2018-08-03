@@ -1,0 +1,77 @@
+* {
+  font-family: 'Verdana', sans-serif;
+}
+
+body {
+  font-size: 15px;
+  color: #0E0732;
+  background-color: #25175A;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #BABFDC;
+  border-radius: 0;
+  border: 0;
+}
+navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Name */
+  color: #25175A;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #0E0732;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #25175A;
+  text-align: center;
+  font-weight: bold; 
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/**text body**/
+
+.navbar,
+.textarea {
+  background-color: #ECE8FB;
+}
+
+.textarea {
+  height: 1000px;
+}
+
+ul li a {
+  text-align: center;
+}
+
+h2{
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  color: #ECE8FB;  
+  margin-top: -10px;
+}
+
+.textarea h3{
+  color: #25175A;
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: bold; 
+}
